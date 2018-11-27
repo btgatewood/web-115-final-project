@@ -1,0 +1,88 @@
+<!-- Bradley Gatewood -->
+<!-- WEB 115 Final Project -->
+
+<!doctype html>
+<html>
+    <head>
+        <title>WEB 115 Final Project</title>
+    </head>
+
+    <body>
+        <hr width="60%">
+
+        <h1 style="text-align:center">Build Your Resume</h1>
+
+        <form id="form1">
+            <p id="p1">
+                <input type="text" name="txtName" size="50" value="Enter your full name">
+                <br>
+                <input type="text" name="txtAddress" size="80" value="Enter your full address">
+                <br>
+                <input type="text" name="txtPhone" size="50" value="Enter your phone number">
+                <br>
+                <input type="text" name="txtEmail" size="50" value="Enter your e-mail address">
+            </p>
+
+            <p>
+                <textarea cols="75" rows="5" name="txtAreaPersonal">Enter your personal information</textarea>
+                <br>
+                <textarea cols="75" rows="5" name="txtAreaCareer">Enter your career objectives</textarea>
+                <br>
+                <textarea cols="75" rows="5" name="txtAreaEducation">Enter your educational background</textarea>
+            </p>
+
+            <p>
+                <b>EMPLOYMENT EXPERIENCE</b><br>
+                Describe your previous employment experience starting with the most recent.<br>
+                <ul>
+                    <li>Leave the end date blank if you are currently employed.</li>
+                    <li>Leave the start date blank to omit that section on your resume.</li>
+                </ul>
+            </p>
+
+            <p>
+                <textarea cols="75" rows="5" name="txtAreaEmployment">Describe your most recent employment experience</textarea>
+                <br>
+                <label for="dateStart">Start Date:</label>
+                <input type="date" name="dateStart">
+                <label for="dateEnd">End Date:</label>
+                <input type="date" name="dateEnd">
+            </p>
+            <p>
+                <textarea cols="75" rows="5" name="txtAreaEmployment">Describe your most recent employment experience</textarea>
+                <br>
+                <label for="dateStart">Start Date:</label>
+                <input type="date" name="dateStart">
+                <label for="dateEnd">End Date:</label>
+                <input type="date" name="dateEnd">
+            </p>
+            <p>
+                <textarea cols="75" rows="5" name="txtAreaEmployment">Describe your most recent employment experience</textarea>
+                <br>
+                <label for="dateStart">Start Date:</label>
+                <input type="date" name="dateStart">
+                <label for="dateEnd">End Date:</label>
+                <input type="date" name="dateEnd">
+            </p>
+            <p>
+                <textarea cols="75" rows="5" name="txtAreaEmployment">Describe your most recent employment experience</textarea>
+                <br>
+                <label for="dateStart">Start Date:</label>
+                <input type="date" name="dateStart">
+                <label for="dateEnd">End Date:</label>
+                <input type="date" name="dateEnd">
+            </p>
+            
+            <p>
+                <textarea cols=75 rows="5" name="txtAreaReferences">Enter your background references</textarea>
+            </p>
+
+            <div id="buttons">
+                <input type="button" name="btnCreateResume" value="Create Resume">
+            </div>
+        </form>
+
+        <script src="projectJS.js"></script>
+
+    </body>
+</html>
