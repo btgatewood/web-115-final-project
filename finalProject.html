@@ -5,6 +5,14 @@
 <html>
     <head>
         <title>WEB 115 Final Project</title>
+        <style>
+            label {
+                float:left; font-weight:bold; width:80px;
+            }
+            input[type=date] {
+                float:left;
+            }
+        </style>
     </head>
 
     <body>
@@ -14,12 +22,16 @@
 
         <form id="form1">
             <p id="p1">
+                <label for="txtName">Name: </label>
                 <input type="text" name="txtName" size="50" value="Enter your full name">
                 <br>
+                <label for="txtAddress">Address: </label>
                 <input type="text" name="txtAddress" size="80" value="Enter your full address">
                 <br>
+                <label for="txtPhone">Phone: </label>
                 <input type="text" name="txtPhone" size="50" value="Enter your phone number">
                 <br>
+                <label for="txtEmail">E-mail:</label>
                 <input type="text" name="txtEmail" size="50" value="Enter your e-mail address">
             </p>
 
