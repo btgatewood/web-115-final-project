@@ -195,13 +195,11 @@ function writeEmploymentSections(theDoc)
 
     for (var i = 0; i < prevJobs.length; i++)
     {
-        if (!startDates[i].value) // If no start date entered, stop writing employment sections.
+        if (startDates[i].value) // Skip this section if no start date was entered.
         {
-            return;
+            var dateStr = getDateString(startDates[i].value, endDates[i].value);
+            writeResumeSection(theDoc, dateStr, formatInput(prevJobs[i].value));
         }
-
-        var dateStr = getDateString(startDates[i].value, endDates[i].value);
-        writeResumeSection(theDoc, dateStr, formatInput(prevJobs[i].value));
     }
 }
 
