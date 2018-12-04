@@ -284,35 +284,34 @@ function testCreateResume(e)
 
     var theForm = document.getElementById("form1");
 
-    theForm.txtName.value = "Bradley Taylor Gatewood";
-    theForm.txtAddress.value = "3900 Knickerbocker Pkwy, Apt. H, Raleigh, NC, 27612";
-    theForm.txtPhone.value = "(919) 999-7526";
-    theForm.txtEmail.value = "btgatewood@outlook.com";
-    theForm.txtAreaCareer.value = "Software Developer & Computer Programmer";
+    theForm.txtName.value = "Jane Doe";
+    theForm.txtAddress.value = "123 Any Street, Any City, USA, 12345";
+    theForm.txtPhone.value = "(555) 555-5555";
+    theForm.txtEmail.value = "janedoe@email.com";
+    theForm.txtAreaCareer.value = "Project Manager";
 
-    theForm.txtAreaPersonal.value = "Birth Date: April 16, 1990\n";
-    theForm.txtAreaPersonal.value += "Health: Excellent, 170 lbs / 5'9\"\n";
+    theForm.txtAreaPersonal.value = "Birth Date: January 1, 1990\n";
+    theForm.txtAreaPersonal.value += "Health: Excellent, 125 lbs / 5'6\"\n";
     theForm.txtAreaPersonal.value += "Marital Status: Single,\n";
     theForm.txtAreaPersonal.value += "Languages: English, Spanish";
 
-    theForm.txtAreaEducation.value = "A.S. Computer Programming & Development - 2019\n";
-    theForm.txtAreaEducation.value += "Wake Technical Community College,\n";
-    theForm.txtAreaEducation.value += "Raleigh, North Carolina";
+    theForm.txtAreaEducation.value = "B.S. in Business Management\n";
+    theForm.txtAreaEducation.value += "Any State University,\n";
+    theForm.txtAreaEducation.value += "Any City, USA";
 
     var prevJobs = document.getElementsByName("txtAreaEmployment");
     var startDates = document.getElementsByName("dateStart");
     var endDates = document.getElementsByName("dateEnd");
 
-    prevJobs[0].value = "Line Cook at Skylines Cafe in Clayton, NC\n";
+    prevJobs[0].value = "Project Manager at Company One, Any City, USA";
     prevJobs[0].value += "Enter job description here...";
-    startDates[0].value = "2018-03-01";
+    startDates[0].value = "2018-01-01";
 
     prevJobs[1].value = "Line Cook at Kick Back Jack's in Garner, NC\n";
     prevJobs[1].value += "Enter job description here...";
-    startDates[1].value = "2011-10-16";
-    endDates[1].value = "2012-10-16";
+    startDates[1].value = "2016-07-01";
+    endDates[1].value = "2018-01-01";
 
-    theForm.txtAreaReferences.value = "Kirby L. Winters, (XXX)XXX-XXXX\n"
-    theForm.txtAreaReferences.value += "William B. Gatewood, Jr., (XXX)XXX-XXXX\n";
-    theForm.txtAreaReferences.value += "Rhonda S. Gatewood, (XXX)XXX-XXXX";
+    theForm.txtAreaReferences.value = "John Doe, (XXX)XXX-XXXX\n"
+    theForm.txtAreaReferences.value += "Bradley Gatewood, (XXX)XXX-XXXX";
 }
