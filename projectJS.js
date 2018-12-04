@@ -303,11 +303,11 @@ function testCreateResume(e)
     var startDates = document.getElementsByName("dateStart");
     var endDates = document.getElementsByName("dateEnd");
 
-    prevJobs[0].value = "Project Manager at Company One, Any City, USA";
+    prevJobs[0].value = "Project Manager at Company One, Any City, USA\n";
     prevJobs[0].value += "Enter job description here...";
     startDates[0].value = "2018-01-01";
 
-    prevJobs[1].value = "Line Cook at Kick Back Jack's in Garner, NC\n";
+    prevJobs[1].value = "Project Manager at Company Two, Other City, USA\n";
     prevJobs[1].value += "Enter job description here...";
     startDates[1].value = "2016-07-01";
     endDates[1].value = "2018-01-01";
