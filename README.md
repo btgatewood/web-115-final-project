@@ -1,11 +1,7 @@
 # web-115-final-project
 Personal Resume Building Tool (WEB 115 Final Project - Fall 2018)
 
-This project was created for a Web Programming & Development course which served as an introduction to the JavaScript language.  A working version is hosted on my portfoio website, www.btgatewood.com.
-
-This code is free to use and modify if you so desire.  All I ask is that you share with me any improvements you make.  Also, I welcome any questions or suggestions regarding my work.
-
-Thanks for checking out my project!
+This project was created for a Web Programming & Development course which served as an introduction to the JavaScript language.
 
 Bradley Gatewood
 btgatewood@outlook.com
